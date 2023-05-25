@@ -60,7 +60,7 @@ export default function Section() {
         <p className='text-center text-xl leading-8 text-text md:w-[42rem] md:mx-auto'>Proxyclick’s Visitor Management System is a fully integrated solution designed to reduce the operational costs associated with workplace entry and establish a secure environment for visitors and employees.</p>
       </div>
 
-      <div className='mx-3 md:flex md:justify-between md:mx-32'>
+      <div className='mx-5 md:flex md:justify-between md:mx-32'>
         {cards.map((card, index) => {
           return (
             <div key={index}>
@@ -78,8 +78,6 @@ export default function Section() {
         })
 
         }
-
-
       </div>
 
       <Features style='md:flex md:flex-row-reverse' img='images/homepage.png' title='Integrate Your Access Control System' content='Sync visitor and employee data with your access control system, send unique QR codes or program RFID cards to grant access at the right time, and get real-time information about who is in the building. Yes, Elvis has left the building.' />
@@ -92,7 +90,6 @@ export default function Section() {
       </div>
       <Button classNames='text-center text-white rounded-full bg-buttonColor w-[15rem] py-3 mx-auto' text='Access Control Integration' />
       <Features style='md:flex' img='images/id-scan.png' title='Secure the Workplace. Protect User Data.' content='Proxyclick’s facial recognition technology, international watchlists, and pre-arrival check-in requirements ensure workplace security and compliance. Proxyclick is also SOC 2 Type II and ISO 27001 certified to demonstrate our commitment to safely managing user data and their privacy.' />
-
     </>
   )
 }

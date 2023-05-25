@@ -8,13 +8,25 @@ export default function Nav() {
                 <div className='w-32 self-center'>
                     <img src='./images/proxy-logo.png' alt='proxy click logo' />
                 </div>
-                <div className='flex'>
-                    <div className='hidden md:flex'>
-                        <Button classNames='inline-block text-md text-white bg-buttonColor w-38 px-3 py-3 rounded-full my-6' text='Book a demo' />
-                        <Button classNames='inline-block text-md text-primaryColor border-red-500 bg-none w-38 px-3 py-3 rounded-full my-6' text='Login' />
+
+                <div className='flex gap-16'>
+                    <div className='hidden md:flex md:items-center'>
+                        <ul className='flex items-center gap-12 text-buttonColor font-bold'>
+                            <li>Why Proxyclick</li>
+                            <li>Product</li>
+                            <li>Solution</li>
+                            <li>Pricing</li>
+                            <li>Resources</li>
+                        </ul>
                     </div>
-                    <div className='flex py-7 lg:hidden'>
-                        <div className='self-center'><img width="32" height="32" src="https://img.icons8.com/windows/32/grip-lines.png" alt="grip-lines" /></div>
+                    <div className='flex'>
+                        <div className='hidden md:flex md:gap-3'>
+                            <Button classNames='inline-block text-md text-white bg-buttonColor w-38 px-3 py-3 rounded-full my-6 lg:my-2' text='Book a demo' />
+                            <Button classNames='inline-block text-md text-buttonColor border-buttonColor border w-38 px-3 py-3 rounded-full my-6 lg:my-2' text='Login' />
+                        </div>
+                        <div className='flex py-7 lg:hidden'>
+                            <div className='self-center'><img width="32" height="32" src="https://img.icons8.com/windows/32/grip-lines.png" alt="grip-lines" /></div>
+                        </div>
                     </div>
                 </div>
             </div>

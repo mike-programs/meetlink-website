@@ -48,7 +48,7 @@ export default function HeroPage() {
                 </div>
                 <p className='text-primaryColor font-bold text-center text-2xl my-12 md:my-32'>People check in to these companies with Proxyclick</p>
 
-                <div className='flex justify-around pb-7 md:py-6 md:92'>
+                <div className='flex justify-around pb-7 md:py-6'>
                     {images.map((image, index) => {
                         return <img key={index} className={image.style} src={image.src} alt={image.alt} />
                     })
