@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+import navItems from './Arrays'
 
 export default function Nav() {
     return (
@@ -10,13 +11,11 @@ export default function Nav() {
                 </div>
 
                 <div className='flex gap-16'>
-                    <div className='hidden md:flex md:items-center'>
+                    <div className='hidden lg:flex md:items-center'>
                         <ul className='flex items-center gap-12 text-buttonColor font-bold'>
-                            <li>Why Proxyclick</li>
-                            <li>Product</li>
-                            <li>Solution</li>
-                            <li>Pricing</li>
-                            <li>Resources</li>
+                            {navItems.map((navItem, index) => {
+                                return (<li>{navItem}</li>)
+                            })}
                         </ul>
                     </div>
                     <div className='flex'>
