@@ -22,7 +22,7 @@ export default function Footer() {
                         <div className='w-10 my-auto md:my-0 ml-5 md:ml-32 lg:mr-5'>
                             <img src="images/puzzle.png" alt="logo" />
                         </div>
-                        <p className='text-white my-auto mr-6'>© 2023 Proxyclick</p>
+                        <p className='text-white my-auto mr-6'>© 2023 MeetLink</p>
                         <div className='flex text-white gap-3 my-auto flex-col md:flex-row'>
                             <p>Privacy policy</p>
                             <p>Terms and conditions</p>

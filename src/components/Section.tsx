@@ -35,7 +35,7 @@ export default function Section() {
       </div>
 
       <Features style='md:flex md:flex-row-reverse' img='images/homepage.png' title='Integrate Your Access Control System' content='Effortlessly synchronize visitor and employee data with your access control system, enabling seamless integration. Employ the convenience of unique QR codes or Access Codes to grant access precisely when needed. Securities or staffs can stay informed in real-time about the presence of individuals within the premises. Bid farewell to any concerns about unauthorized access. Indeed, as the famous saying goes, "Peter has left the building."' />
-      <Features style='md:flex' img='images/id-scan.png' title='Secure the Workplace. Protect User Data.' content='Proxyclick’s facial recognition technology, international watchlists, and pre-arrival check-in requirements ensure workplace security and compliance. Proxyclick is also SOC 2 Type II and ISO 27001 certified to demonstrate our commitment to safely managing user data and their privacy.' />
+      <Features style='md:flex' img='images/id-scan.png' title='Secure the Workplace. Protect User Data.' content='MeetLink’s facial recognition technology, international watchlists, and pre-arrival check-in requirements ensure workplace security and compliance. MeetLink is also SOC 2 Type II and ISO 27001 certified to demonstrate our commitment to safely managing user data and their privacy.' />
     </>
   )
 }
