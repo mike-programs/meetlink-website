@@ -1,4 +1,10 @@
-const navItems = ['Why Proxyclick', 'Product', 'Solution', 'Pricing', 'Resources']
+const navItems = [
+    {link: 'Why Meetlink', url: '/'},
+    {link: 'Product', url: '/'},
+    {link: 'Solution', url: '/'},
+    {link: 'Pricing', url: '/'},
+    {link: 'Resources', url: '/'},
+]
 
 const images = [{
     src: "images/airbnb.svg",
@@ -83,6 +89,11 @@ const cards = [{
 const logos = [{
     src: "images/airbnb.svg",
     alt: "AirBnb",
+    style: "w-16"
+},
+{
+    src: "images/logo.svg",
+    alt: "Logo",
     style: "w-16"
 },
 {

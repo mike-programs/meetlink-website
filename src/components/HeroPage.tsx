@@ -1,36 +1,31 @@
-import React from 'react'
-import Button from './Button'
-import { images } from './Arrays'
-
-
+import React from "react";
+import Button from "./Button";
+import { images } from "./Arrays";
 
 export default function HeroPage() {
-
-    return (
-        <>
-            {/* use clip art for the background wave*/}
-            <div className='bg-lightBlue px-3 sm:px-6 md:px-28'>
-                <div className='flex flex-col-reverse md:flex-row'>
-                    <div className='md:w-1/2 md:mt-24'>
-                        <p className='text-primaryColor font-bold text-3xl mb-6 pt-6'>Open Sesame</p>
-                        <p className='text-text text-2xl'>You’ve struck gold! Welcome visitors into the workplace with an experience that doesn’t compromise the health, security, or compliance objectives of your company.</p>
-                        <Button classNames='inline-block text-md text-white bg-buttonColor w-38 px-3 py-3 rounded-full my-6' text='Demo Proxyclick' />
-                    </div>
-                    <div className='md:w-2/3'>
-                        <img src='images/mock.png' alt='hero' />
-                    </div>
-
-                </div>
-                <p className='text-primaryColor font-bold text-center text-2xl my-12 md:my-32'>People check in to these companies with Proxyclick</p>
-
-                <div className='flex justify-around pb-7 md:py-6'>
-                    {images.map((image, index) => {
-                        return <img key={index} className={image.style} src={image.src} alt={image.alt} />
-                    })
-                    }
-                </div>
-            </div>
-
-        </>
-    )
+  return (
+    <>
+      {/* use clip art for the background wave*/}
+      <div className="bg-lightBlue">
+        <div className="flex justify-between gap-10 flex-col-reverse md:flex-row mx-5 md:mx-20 pt-10 ">
+          <div className="md:w-[80%] w-[100%] md:mt-24">
+            <h1 className="text-primaryColor font-bold text-[1.5rem] md:text-[3rem] pt-6 ">
+              MeetLink
+            </h1>
+            <p className="md:text-[20px] text-[16px] mb-10 text-primaryColor/80 ">Seamless Scheduling, Secure Entry</p>
+            <p className="text-text text-2xl">
+            You have hit the jackpot! Create an exceptional workplace experience that prioritizes the security, and compliance objectives of your company, while still warmly welcoming visitors.
+            </p>
+            <Button
+              classNames="inline-block text-md text-white bg-buttonColor/90 hover:bg-buttonColor transition-all ease-linear cursor-pointer w-38 px-3 py-3 rounded-full my-6"
+              text="Demo MeetLink"
+            />
+          </div>
+          <div className="md:w-2/3">
+            <img src="images/hero.png" alt="hero" className="w-[100%] mb-0 md:mb-60" />
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
