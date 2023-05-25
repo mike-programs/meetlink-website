@@ -11,7 +11,7 @@ export default function Section() {
     <>
       <div className='mx-3 my-8 md:mt-32'>
         <p className='text-center text-3xl font-bold text-primaryColor my-3 md:text-4xl'> A Superior Guest Experience</p>
-        <p className='text-center text-xl leading-8 text-text md:w-[42rem] md:mx-auto'>MeetLink's Visitor Management System is a fully integrated solution designed to reduce the operational costs associated with workplace entry and establish a secure environment for visitors and employees.</p>
+        <p className='text-center text-xl leading-8 text-text md:w-[42rem] md:mx-auto'>MeetLink's Visitor Management System is a fully integrated solution designed to reduce the operational costs associated with Organisation entry and establish a secure environment for visitors and employees.</p>
       </div>
 
       <div className='mx-5 md:flex md:justify-between md:mx-32'>
