@@ -5,18 +5,18 @@ export default function Footer() {
     return (
         <>
             <div className='bg-primaryColor'>
-                <div className=' p-5 flex flex-wrap md:flex-nowrap gap-9 md:gap-20 md:px-32'>
+                <div className='p-5 flex flex-wrap md:flex-nowrap gap-9 md:gap-20 md:px-32'>
                     {footers.map((content, index) => (
                         <div key={index} className="w-[40%] md:w-[20%] mt-12">
                             <p className='text-white text-xl'>{content.title}</p>
                             {content.links.map((link, index) => (
-                                <p className='text-text my-2'>{link}</p>
+                                <p className='text-text my-2 hover:text-white cursor-pointer duration-300'>{link}</p>
                             ))}
                         </div>
                     ))}
                 </div>
                 <div className=''>
-                    <hr className='md:w-[80rem] lg:w-[68rem] mx-auto lg:my-3' />
+                    <hr className='md:w-[40rem] lg:w-[68rem] mx-auto lg:my-3' />
 
                     <div className='flex md:flex-row py-4 '>
                         <div className='w-10 my-auto md:my-0 ml-5 md:ml-32 lg:mr-5'>

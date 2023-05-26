@@ -69,42 +69,7 @@ const cards = [{
 }]
 
 
-const logos = [{
-    src: "images/airbnb.svg",
-    alt: "AirBnb",
-    style: "w-16"
-},
-{
-    src: "images/logo.svg",
-    alt: "Logo",
-    style: "w-16"
-},
-{
-    src: "images/acer.svg",
-    alt: "Acer",
-    style: "w-16"
-},
-{
-    src: "images/audi.svg",
-    alt: "Audi",
-    style: "w-16"
-}, {
-    src: "images/pepsico.svg",
-    alt: "Pepsico",
-    style: "w-16"
-}, {
-    src: "images/loreal.svg",
-    alt: "Loreal",
-    style: "w-16 hidden sm:inline-block"
-}, {
-    src: "images/revolut.svg",
-    alt: "Revolut",
-    style: "w-16 hidden sm:inline-block"
-}]
-
 export default navItems
 export { images }
 export { footers }
-export { reviewItems }
 export { cards }
-export { logos }

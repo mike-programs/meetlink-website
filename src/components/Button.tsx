@@ -6,7 +6,7 @@ interface Props {
 export default function Button(props: Props) {
     return (
         <>
-            <p className={props.classNames}>{props.text}</p>
+            <p className={'hover:-translate-y-2 transition-all ease-linear cursor-pointer duration-300 ' + props.classNames}>{props.text}</p>
         </>
     )
 }
