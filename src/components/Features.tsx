@@ -1,5 +1,7 @@
 import React from 'react'
 import LearnMore from './LearnMore'
+// @ts-ignore
+import Zoom from 'react-reveal/Zoom'
 
 interface Props {
     title: string,
@@ -19,7 +21,10 @@ export default function Features(props: Props) {
                     <LearnMore />
                 </div>
                 <div className='mt-28 md:w-[50%] md:my-auto'>
-                    <img src={props.img} alt={props.alt} />
+
+                    <Zoom>
+                        <img src={props.img} alt={props.alt} />
+                    </Zoom>
                 </div>
             </div>
         </>

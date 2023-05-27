@@ -1,7 +1,8 @@
 import React from "react";
 import Button from "./Button";
 import navItems from "./Arrays";
-import Logo from "../assests/images/logo.png";
+
+
 export default function Nav() {
     const customBtn = `flex items-center text-white rounded-lg h-[80%] justify-center p-3 bg-buttonColor/90 hover:bg-buttonColor `;
     return (
