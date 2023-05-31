@@ -66,7 +66,7 @@ export default function Nav() {
 
       <div
         className={
-          "fixed inset-x-4 inset-y-28 bg-white z-30 lg:hidden transition ease-in duration-300 " +
+          "fixed inset-x-4 top-28 bottom-4 rounded-3xl shadow-2xl bg-white z-30 lg:hidden transition ease-in duration-300 " +
           toggle
         }
       >
