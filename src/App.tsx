@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="max-w-[1800px] mx-auto">
       <Nav />
       <HeroPage />
       <Section />
